@@ -11,7 +11,7 @@ var helper = module.exports = {
 			if (model.menu[i].id === id) {
 				model.menuItem = model.menu[i];
 			}
-		};
+		}
 	},
 
 	getCurrent: function() {
